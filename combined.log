@@ -1,0 +1,22 @@
+2024-04-10T20:37:25.839Z [info]: Server is running on port 3000.
+2024-04-10T20:37:45.360Z [error]: Failed to fetch Confluence page: Request failed with status code 404
+2024-04-10T20:43:56.901Z [info]: Server is running on port 3000.
+2024-04-10T20:44:01.918Z [error]: Failed to fetch Confluence page: 
+2024-04-10T20:44:53.900Z [info]: Server is running on port 3000.
+2024-04-10T20:45:00.055Z [error]: Failed to fetch Confluence page: Request failed with status code 404https://your-confluence-site.atlassian.net/wiki/rest/api
+2024-04-10T20:47:09.256Z [info]: Server is running on port 3000.
+2024-04-10T20:47:13.001Z [info]: Server is running on port 3000.
+2024-04-10T20:47:52.070Z [info]: Server is running on port 3000.
+2024-04-10T20:47:55.590Z [info]: Server is running on port 3000.
+2024-04-10T20:48:13.477Z [info]: Server is running on port 3000.
+2024-04-10T20:48:15.923Z [info]: Server is running on port 3000.
+2024-04-10T20:49:58.092Z [info]: Server is running on port 3000.
+2024-04-10T20:51:57.537Z [info]: Server is running on port 3000.
+2024-04-10T20:52:11.385Z [info]: Server is running on port 3000.
+2024-04-10T20:52:13.416Z [error]: Error fetching GitHub repositories: Request failed with status code 401
+2024-04-11T10:26:28.740Z [error]: Error fetching GitHub repositories: Request failed with status code 401
+2024-04-11T10:26:41.072Z [error]: Error fetching GitHub repositories: Request failed with status code 401
+2024-04-11T10:28:54.391Z [info]: Server is running on port 3000.
+2024-04-11T10:31:36.597Z [info]: Server is running on port 3000.
+2024-04-11T10:33:49.221Z [info]: Server is running on port 3000.
+2024-04-11T10:39:53.931Z [info]: Server is running on port 3000.
