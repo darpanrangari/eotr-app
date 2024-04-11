@@ -1,10 +1,10 @@
-require('dotenv').config();
-const express = require('express');
-const bodyParser = require('body-parser');
-const cors = require('cors');
-const logger = require('./config/logger');
-const confluenceRoutes = require('./api/routes/confluenceRoutes');
-const githubRoutes = require('./api/routes/githubRoutes');
+import 'dotenv/config'
+import express from 'express';
+import bodyParser from 'body-parser';
+import cors from 'cors';
+import logger from './config/logger.js';
+import confluenceRoutes from './api/routes/confluenceRoutes.js';
+import githubRoutes from './api/routes/githubRoutes.js';
 
 const app = express();
 const PORT = process.env.PORT || 3000;

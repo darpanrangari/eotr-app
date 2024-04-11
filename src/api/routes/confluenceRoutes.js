@@ -1,7 +1,7 @@
-const express = require('express');
-const { getPage } = require('../controllers/confluenceController');
-const router = express.Router();
+import { Router } from 'express';
+import { getPage } from '../controllers/confluenceController.js';
+const router = Router();
 
 router.get('/confluence/page/:pageId', getPage);
 
-module.exports = router;
+export default router;

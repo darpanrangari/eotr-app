@@ -1,7 +1,7 @@
-const axios = require('axios');
-const logger = require('../../config/logger');
+import axios from 'axios';
+import logger from '../../config/logger.js';
 
-exports.getConfluencePage = async (pageId) => {
+export async function getConfluencePage(pageId) {
   try {
     const response = await axios.get(`${process.env.CONFLUENCE_URL}/content/${pageId}`, {
       auth: {
@@ -17,4 +17,4 @@ exports.getConfluencePage = async (pageId) => {
     logger.error('Failed to fetch Confluence page: ' + error.message + process.env.CONFLUENCE_URL);
     throw error;
   }
-};
+}

@@ -1,6 +1,6 @@
-const { getConfluencePage } = require('../services/confluenceService');
+import { getConfluencePage } from '../services/confluenceService.js';
 
-exports.getPage = async (req, res) => {
+export async function getPage(req, res) {
   try {
     const pageId = req.params.pageId;
     const pageData = await getConfluencePage(pageId);
@@ -8,4 +8,4 @@ exports.getPage = async (req, res) => {
   } catch (error) {
     res.status(500).send(error.message);
   }
-};
+}
