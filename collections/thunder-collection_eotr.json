@@ -1,0 +1,37 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "eotr",
+    "dateExported": "2024-04-11T13:14:54.539Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "9295b097-da34-444d-9cf5-3c4d2dc9fb60",
+            "colId": "1c6d7791-f94f-4566-af5d-1aedda61e450",
+            "containerId": "",
+            "name": "Get User Repos",
+            "url": "localhost:3000/api/users/darpanrangari/repos",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-04-11T12:24:04.045Z",
+            "modified": "2024-04-11T12:40:18.227Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "41032374-c300-4fbb-8a97-588e9a86a721",
+            "colId": "1c6d7791-f94f-4566-af5d-1aedda61e450",
+            "containerId": "",
+            "name": "GHE Check user authentication status",
+            "url": "localhost:3000/api/auth/darpanrangari",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-04-11T12:25:00.241Z",
+            "modified": "2024-04-11T12:25:06.576Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
